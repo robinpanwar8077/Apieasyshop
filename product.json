@@ -1,0 +1,183 @@
+[
+    {
+      "name": "Apple iPhone 13",
+      "type": "phone",
+      "brand": "Apple",
+      "price": 999.99,
+      "featured": true,
+      "rating": 4.8,
+      "createdAt": "2024-03-15T10:00:00.000Z"
+    },
+    {
+      "name": "Samsung Galaxy S22",
+      "type": "phone",
+      "brand": "Samsung",
+      "price": 899.99,
+      "featured": true,
+      "rating": 4.7,
+      "createdAt": "2024-03-14T15:30:00.000Z"
+    },
+    {
+      "name": "Sony WH-1000XM4",
+      "type": "headphones",
+      "brand": "Sony",
+      "price": 349.99,
+      "featured": true,
+      "rating": 4.9,
+      "createdAt": "2024-03-13T08:45:00.000Z"
+    },
+    {
+      "name": "Apple MacBook Pro",
+      "type": "laptop",
+      "brand": "Apple",
+      "price": 1499.99,
+      "featured": true,
+      "rating": 4.9,
+      "createdAt": "2024-03-12T11:20:00.000Z"
+    },
+    {
+      "name": "Nike Air Max 270",
+      "type": "shoes",
+      "brand": "Nike",
+      "price": 129.99,
+      "featured": true,
+      "rating": 4.5,
+      "createdAt": "2024-03-11T16:50:00.000Z"
+    },
+    {
+      "name": "Adidas Ultraboost 21",
+      "type": "shoes",
+      "brand": "Adidas",
+      "price": 159.99,
+      "featured": true,
+      "rating": 4.6,
+      "createdAt": "2024-03-10T09:15:00.000Z"
+    },
+    {
+      "name": "Fitbit Versa 3",
+      "type": "watch",
+      "brand": "Fitbit",
+      "price": 199.99,
+      "featured": true,
+      "rating": 4.7,
+      "createdAt": "2024-03-09T14:40:00.000Z"
+    },
+    {
+      "name": "Rolex Submariner",
+      "type": "watch",
+      "brand": "Rolex",
+      "price": 9999.99,
+      "featured": true,
+      "rating": 4.9,
+      "createdAt": "2024-03-08T10:05:00.000Z"
+    },
+    {
+      "name": "Levi's 501 Original Fit Jeans",
+      "type": "clothes",
+      "brand": "Levi's",
+      "price": 49.99,
+      "featured": true,
+      "rating": 4.8,
+      "createdAt": "2024-03-07T17:30:00.000Z"
+    },
+    {
+      "name": "Apple AirPods Pro",
+      "type": "headphones",
+      "brand": "Apple",
+      "price": 249.99,
+      "featured": true,
+      "rating": 4.8,
+      "createdAt": "2024-03-06T13:55:00.000Z"
+    },
+    {
+      "name": "Boat Rockerz 450",
+      "type": "headphones",
+      "brand": "Boat",
+      "price": 39.99,
+      "featured": true,
+      "rating": 4.6,
+      "createdAt": "2024-03-05T10:20:00.000Z"
+    },
+    {
+      "name": "Samsung QLED Q90T",
+      "type": "tv",
+      "brand": "Samsung",
+      "price": 1999.99,
+      "featured": true,
+      "rating": 4.8,
+      "createdAt": "2024-03-04T14:45:00.000Z"
+    },
+    {
+      "name": "OnePlus 9 Pro",
+      "type": "phone",
+      "brand": "OnePlus",
+      "price": 899.99,
+      "featured": true,
+      "rating": 4.7,
+      "createdAt": "2024-03-03T11:10:00.000Z"
+    },
+    {
+      "name": "Nike Dri-FIT T-Shirt",
+      "type": "clothes",
+      "brand": "Nike",
+      "price": 29.99,
+      "featured": true,
+      "rating": 4.7,
+      "createdAt": "2024-03-02T16:35:00.000Z"
+    },
+    {
+      "name": "Apple iPad Pro",
+      "type": "tablet",
+      "brand": "Apple",
+      "price": 799.99,
+      "featured": true,
+      "rating": 4.8,
+      "createdAt": "2024-03-01T09:00:00.000Z"
+    },
+    {
+      "name": "Asus ROG Strix G15",
+      "type": "laptop",
+      "brand": "Asus",
+      "price": 1299.99,
+      "featured": true,
+      "rating": 4.8,
+      "createdAt": "2024-02-29T13:25:00.000Z"
+    },
+    {
+      "name": "Adidas Originals Track Jacket",
+      "type": "clothes",
+      "brand": "Adidas",
+      "price": 79.99,
+      "featured": true,
+      "rating": 4.6,
+      "createdAt": "2024-02-28T10:50:00.000Z"
+    },
+    {
+      "name": "Fossil Gen 6 Smartwatch",
+      "type": "watch",
+      "brand": "Fossil",
+      "price": 299.99,
+      "featured": true,
+      "rating": 4.7,
+      "createdAt": "2024-02-27T15:15:00.000Z"
+    },
+    {
+      "name": "LG OLED C1 Series TV",
+      "type": "tv",
+      "brand": "LG",
+      "price": 1499.99,
+      "featured": true,
+      "rating": 4.8,
+      "createdAt": "2024-02-26T09:40:00.000Z"
+    },
+    {
+      "name": "Bose QuietComfort 45",
+      "type": "headphones",
+      "brand": "Bose",
+      "price": 349.99,
+      "featured": true,
+      "rating": 4.9,
+      "createdAt": "2024-02-25T14:05:00.000Z"
+    }
+  ]
+  
