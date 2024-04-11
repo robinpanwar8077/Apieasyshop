@@ -1,7 +1,7 @@
 const Product = require("../models/products");
 
 const getAllProducts = async (req, res) => {
-    const { company, name, sort, select } = req.query;
+    const { company, productName, sort, select } = req.query;
 
     const queryObject = {};
 
@@ -9,8 +9,8 @@ const getAllProducts = async (req, res) => {
         queryObject.company = company;
     }
 
-    if (name) {
-        queryObject.name = { $regex: name, $options: "i" };
+    if (productName) {
+        queryObject.productName = { $regex: productName, $options: "i" };
     }
 
     let apidata = Product.find(queryObject);

@@ -1,33 +1,46 @@
 const mongoose = require('mongoose');
 
 const productSchema = new mongoose.Schema({
-    name: {
+    productId: {
         type: String,
         required: true
     },
-    type: {
+    productName: {
         type: String,
         required: true
     },
-    brand: {
-        type: String
+    description: {
+        type: String,
+        required: true
     },
     price: {
         type: Number,
         required: true
     },
-    featured: {
-        type: Boolean,
-        default: true
-    },
-    rating: {
-        type: Number,
-        default: 4.9
-    },
-    createdAt: {
-        type: Date,
-        default: Date.now
-    }
+    options: [
+        {
+            optionName: {
+                type: String,
+                required: true
+            },
+            optionValues: [
+                {
+                    value: {
+                        type: String,
+                        required: true
+                    },
+                    priceModifier: {
+                        type: Number,
+                        required: true
+                    },
+                    image: {
+                        type: String,
+                        required: true
+                    }
+                }
+            ]
+        }
+    ]
 });
 
 const Product = mongoose.model('Product', productSchema);
