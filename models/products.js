@@ -19,7 +19,7 @@ const productSchema = new mongoose.Schema({
     },
     productCategory:{
     type:String,
-    required: true
+    
     },
     options: [
         {
