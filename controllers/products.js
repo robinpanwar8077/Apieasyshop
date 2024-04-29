@@ -12,8 +12,14 @@ const getAllProducts = async (req, res) => {
     if (productName) {
         queryObject.productName = { $regex: productName, $options: "i" };
     }
+    if (productCategory) {
+        const categoryRegex = new RegExp(`^${productCategory}$`, 'i');
+        queryObject.productCategory = categoryRegex;
+      }
+      
 
     let apidata = Product.find(queryObject);
+
 
     if (sort) {
         let sortFix = sort.replace(",", " ");
@@ -44,3 +50,4 @@ const getAllProductstest = async (req, res) => {
 };
 
 module.exports = { getAllProducts, getAllProductstest };
+dx
