@@ -50,4 +50,3 @@ const getAllProductstest = async (req, res) => {
 };
 
 module.exports = { getAllProducts, getAllProductstest };
-dx
